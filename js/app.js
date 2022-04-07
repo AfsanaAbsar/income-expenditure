@@ -30,4 +30,24 @@ document.getElementById('calculate-btn').addEventListener('click', function () {
 
     const totalBalance = document.getElementById('total-balance');
     totalBalance.innerText = incomeAmount - parseFloat(expenses);
+
+});
+
+
+// Handle Savings Button Events
+
+document.getElementById('saving-btn').addEventListener('click', function () {
+    const balanceAmount = document.getElementById('total-balance');
+    const balanceValue = balanceAmount.innerText;
+    const balance = parseFloat(balanceValue);
+    console.log(balance);
+
+    // saving calculation
+
+    const savingAmountPercantage = getInput('saving-input');
+    const savingAmount = document.getElementById('saving-amount');
+    savingAmount.innerText = savingAmountPercantage * balance * 0.01;
+
+
+
 })
