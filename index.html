@@ -14,27 +14,38 @@
 </head>
 
 <body>
-    <h1> Income & Expenditure
+    <!-- heading -->
+    <h1 class="text-center text-warning mt-4 mb-4"> Income & Expenditure
     </h1>
-
+    <!-- main section -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-4">
                 <img class="img-fluid" src="images/6573.jpg" alt="">
             </div>
-            <div class="col-lg-6">
-                <h3>income</h3>
-                <p> income: <input id="income-input" type="number"></p>
-                <h3>expenses</h3>
-                <p> food: <input id="food-input" type="number"></p>
-                <p> rent: <input id="rent-input" type="number"></p>
-                <p> clothes: <input id="clothes-input" type="number"></p>
-                <button id="calculate-btn">calculate</button>
-                <h3>total expenses: <span id="total-expenses"></span> </h3>
-                <h3>balance: <span id="total-balance"></span> </h3>
-                <p>save : <input id="saving-input" type="number"> % <button id="saving-btn">save</button></p>
-                <h3>saving amount : <span id="saving-amount"></span> </h3>
-                <h3>remaining balance : <span id="remaining-amount"></span> </h3>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-4 half text-center">
+
+                <h4>Income</h4>
+                <p> Income: <input id="income-input" type="number"></p>
+
+
+                <h4>Expenses</h4>
+                <p> Food: <input id="food-input" type="number"></p>
+
+                <p> Rent: <input id="rent-input" type="number"></p>
+
+                <p> Clothes: <input id="clothes-input" type="number"></p>
+
+                <p id="error">please Fill the input</p>
+
+                <button class="p-2 rounded" id="calculate-btn">Calculate</button>
+                <h4>Total Expenses: <span id="total-expenses"></span> </h4>
+                <h4>Balance: <span id="total-balance"></span> </h4>
+                <p>Save : <input id="saving-input" type="number"> % <button class="p-2 rounded"
+                        id="saving-btn">save</button>
+                </p>
+                <h4>Saving Amount : <span id="saving-amount"></span> </h4>
+                <h4>Remaining Balance : <span id="remaining-amount"></span> </h4>
 
             </div>
         </div>

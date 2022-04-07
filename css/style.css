@@ -1,4 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.half{
+    background-color: rgba(227, 229, 231, 0.637);
+}
 
+button{
+     border: none;
+     background-color: rgb(238, 163, 42);
+     color: white;
+}
 
 
 
