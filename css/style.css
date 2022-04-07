@@ -1,18 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-.half{
+
+.half {
     background-color: rgba(227, 229, 231, 0.637);
 }
 
-button{
-     border: none;
-     background-color: rgb(238, 163, 42);
-     color: white;
+button {
+    border: none;
+    background-color: rgb(238, 163, 42);
+    color: white;
+}
+
+#error {
+    display: none;
+    color: brown;
+}
+
+#balance {
+    display: none;
+    color: brown;
+}
+
+#saving-error {
+    display: none;
+    color: brown;
 }
 
 
